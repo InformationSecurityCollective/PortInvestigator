@@ -15,9 +15,6 @@ Make sure to install them using pip:
 
 pip install python-nmap pandas prettytable argparse
 
-vbnet
-Copy code
-
 ## How It Works
 
 The `scan_ports` function is the core of this script. It takes two arguments: 
@@ -37,9 +34,6 @@ Finally, the user is asked whether they want to save the results to a CSV file. 
 To run the script, you need to provide the host and the start and end of the port range as command-line arguments:
 
 python port_scanner.py <host> <start_port> <end_port>
-
-vbnet
-Copy code
 
 For example, to scan ports 70 to 90 on localhost, you would run:
 
