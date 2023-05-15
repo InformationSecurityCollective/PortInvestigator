@@ -1,6 +1,6 @@
 # Port Scanning Tool
 
-This Python script is a simple network utility tool that can be used to scan for open ports on a given host within a specified range. This tool also identifies the services running on those open ports.
+This is a simple, yet effective, Port Scanning tool written in Python. The tool scans for open ports on a given host within a specified range and identifies the services running on those open ports. It's a handy utility for network diagnostics, security assessments, and understanding your network better.
 
 ## Dependencies
 
@@ -43,7 +43,4 @@ Copy code
 
 For example, to scan ports 70 to 90 on localhost, you would run:
 
-python port_scanner.py localhost 70 90
-
-Copy code
-Remember to replace port_scanner.py with the actual name of your script.
+python port_investigator.py localhost 70 90
